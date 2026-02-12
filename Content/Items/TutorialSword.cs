@@ -12,7 +12,7 @@ namespace TutorialMod.Content.Items
 		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.TutorialMod.hjson' file.
 		public override void SetDefaults()
 		{
-			Item.damage = 10;
+			Item.damage = 100;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 100;
 			Item.height = 1000;
