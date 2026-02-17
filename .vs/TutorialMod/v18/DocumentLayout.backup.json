@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{25E63F04-EA01-3023-ACF7-D754BCC888B9}|TutorialMod.csproj|c:\\users\\12039\\documents\\my games\\terraria\\tmodloader\\modsources\\tutorialmod\\content\\items\\tutorialsword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25E63F04-EA01-3023-ACF7-D754BCC888B9}|TutorialMod.csproj|solutionrelative:content\\items\\tutorialsword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25E63F04-EA01-3023-ACF7-D754BCC888B9}|TutorialMod.csproj|c:\\users\\12039\\documents\\my games\\terraria\\tmodloader\\modsources\\tutorialmod\\tutorialmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25E63F04-EA01-3023-ACF7-D754BCC888B9}|TutorialMod.csproj|solutionrelative:tutorialmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,20 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TutorialMod.cs",
-              "DocumentMoniker": "C:\\Users\\12039\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\TutorialMod\\TutorialMod.cs",
-              "RelativeDocumentMoniker": "TutorialMod.cs",
-              "ToolTip": "C:\\Users\\12039\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\TutorialMod\\TutorialMod.cs",
-              "RelativeToolTip": "TutorialMod.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T22:06:44.057Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,9 +24,9 @@
               "RelativeDocumentMoniker": "Content\\Items\\TutorialSword.cs",
               "ToolTip": "C:\\Users\\12039\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\TutorialMod\\Content\\Items\\TutorialSword.cs",
               "RelativeToolTip": "Content\\Items\\TutorialSword.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T22:06:42.554Z",
+              "WhenOpened": "2026-02-17T17:44:10.405Z",
               "EditorCaption": ""
             }
           ]

@@ -1,6 +1,8 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+//using Terraria.DataStructures;
+//using Microsoft.Xna.Framework;
 
 namespace TutorialMod.Content.Items
 {
@@ -12,7 +14,7 @@ namespace TutorialMod.Content.Items
 		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.TutorialMod.hjson' file.
 		public override void SetDefaults()
 		{
-			Item.damage = 100;
+			Item.damage = 10;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 100;
 			Item.height = 1000;
@@ -26,7 +28,14 @@ namespace TutorialMod.Content.Items
 			Item.autoReuse = true;
 		}
 
-		public override void AddRecipes()
+        public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            // Inflict the OnFire debuff for 1 second onto any NPC/Monster that this hits.
+            // 60 frames = 1 second
+            target.AddBuff(BuffID.OnFire, 60);
+        }
+
+        public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.DirtBlock, 10);
