@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 
 namespace TutorialMod.Content.Items
 {
-    public class test : ModItem
+    public class BlightSword : ModItem
     {
         public override void SetDefaults()
         {
