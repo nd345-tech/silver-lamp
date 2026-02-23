@@ -5,4 +5,9 @@ Items: {
 		DisplayName: goat dirt sword
 		Tooltip: i be swinging and shit
 	}
+
+	test: {
+		DisplayName: test
+		Tooltip: ""
+	}
 }
