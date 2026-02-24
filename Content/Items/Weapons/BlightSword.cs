@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 //using Terraria.DataStructures;
 using Microsoft.Xna.Framework;
 
-namespace TutorialMod.Content.Items
+namespace TutorialMod.Content.Items.Weapons
 {
     public class BlightSword : ModItem
     {

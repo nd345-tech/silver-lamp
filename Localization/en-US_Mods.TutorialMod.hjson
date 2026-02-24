@@ -15,4 +15,32 @@ Items: {
 		DisplayName: Blight Sword
 		Tooltip: ""
 	}
+
+	ScorchBullet: {
+		DisplayName: Scorch Bullet
+		Tooltip: ""
+	}
+
+	ScorchShot: {
+		DisplayName: Scorch Shot
+		Tooltip: ""
+	}
+
+	DoomHelm: {
+		SetBonus: Mods.TutorialMod.Items.DoomHelm.SetBonus
+		DisplayName: Doom Helm
+		Tooltip: An old relic from 1993, still holds up.
+	}
+
+	DoomBreastplate: {
+		DisplayName: Doom Breastplate
+		Tooltip: Rip and tear.
+	}
+
+	DoomLeggings: {
+		DisplayName: Doom Leggings
+		Tooltip: Fit for stomping on demon skulls.
+	}
 }
+
+Projectiles.ScorchBullet.DisplayName: Scorch Bullet

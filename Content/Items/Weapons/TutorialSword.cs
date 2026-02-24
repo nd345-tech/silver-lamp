@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 //using Terraria.DataStructures;
 using Microsoft.Xna.Framework;
 
-namespace TutorialMod.Content.Items
+namespace TutorialMod.Content.Items.Weapons
 {
 	// This is a basic item template.
 	// Please see tModLoader's ExampleMod for every other example:
