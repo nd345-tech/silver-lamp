@@ -7,7 +7,7 @@ using TutorialMod.Content.Projectiles;
 
 namespace TutorialMod.Content.Items.Weapons
 {
-    internal class ScorchShot : ModItem
+    public class ScorchShot : ModItem
     {
         public override void SetDefaults()
         {
@@ -25,7 +25,7 @@ namespace TutorialMod.Content.Items.Weapons
 
             // Weapon Properties
             Item.DamageType = DamageClass.Ranged; // Sets the damage type to ranged.
-            Item.damage = 10; // Sets the item's damage. Note that projectiles shot by this weapon will use its and the used ammunition's damage added together.
+            Item.damage = 20; // Sets the item's damage. Note that projectiles shot by this weapon will use its and the used ammunition's damage added together.
             Item.knockBack = 6f; // Sets the item's knockback. Note that projectiles shot by this weapon will use its and the used ammunition's knockback added together.
             Item.noMelee = true; // So the item's animation doesn't do damage.
 
@@ -37,12 +37,12 @@ namespace TutorialMod.Content.Items.Weapons
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            const int NumProjectiles = 8; // The number of projectiles that this gun will shoot.
+            const int NumProjectiles = 12; // The number of projectiles that this gun will shoot.
 
             for (int i = 0; i < NumProjectiles; i++)
             {
                 // Rotate the velocity randomly by 30 degrees at max.
-                Vector2 newVelocity = velocity.RotatedByRandom(MathHelper.ToRadians(15));
+                Vector2 newVelocity = velocity.RotatedByRandom(MathHelper.ToRadians(10));
 
                 // Decrease velocity randomly for nicer visuals.
                 newVelocity *= 1f - Main.rand.NextFloat(0.3f);

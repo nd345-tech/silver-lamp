@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TutorialMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba3a6c482a2d378b526f398f7be72c9d00d0d47b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bd7288b81ac378a0b214374bf760db589077e04")]
 [assembly: System.Reflection.AssemblyProductAttribute("TutorialMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TutorialMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

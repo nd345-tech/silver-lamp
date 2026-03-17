@@ -41,6 +41,49 @@ Items: {
 		DisplayName: Doom Leggings
 		Tooltip: Fit for stomping on demon skulls.
 	}
+
+	CentennialBreachSummon: {
+		DisplayName: Centennial Breach Summon
+		Tooltip: ""
+	}
 }
 
-Projectiles.ScorchBullet.DisplayName: Scorch Bullet
+Projectiles: {
+	ScorchBullet.DisplayName: Scorch Bullet
+	DemonicSphere.DisplayName: Demonic Sphere
+	DemonicSphereBoss.DisplayName: Demonic Sphere Boss
+}
+
+NPCs: {
+	Marine: {
+		DisplayName: Marine
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+			LikeBiome: I like {BiomeName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LoveNPC: I love {NPCName}.
+			LikeNPC: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			HateNPC: I hate {NPCName}.
+		}
+
+		Upgraded: Mods.TutorialMod.NPCs.Marine.Upgraded
+		DeathMessage: The marine has fallen.
+	}
+
+	TravelingMarine.DisplayName: Traveling Marine
+	Possessed.DisplayName: Possessed
+
+	CentennialBreach: {
+		BossFightName: Mods.TutorialMod.NPCs.CentennialBreach.BossFightName
+		DisplayName: Centennial Breach
+	}
+}
