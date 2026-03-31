@@ -5,6 +5,7 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
+using TutorialMod.Content.Items.Placeable;
 
 namespace TutorialMod.Content.Items.Ammo
 {
@@ -31,6 +32,7 @@ namespace TutorialMod.Content.Items.Ammo
         {
             CreateRecipe()
                 .AddIngredient(ItemID.DirtBlock, 10)
+                .AddIngredient<MalvadiumOre>()
                 .AddTile(TileID.WorkBenches)
                 .Register();
         }

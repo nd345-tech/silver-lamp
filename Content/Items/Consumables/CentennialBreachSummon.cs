@@ -43,7 +43,7 @@ namespace TutorialMod.Content.Items.Consumables
         // If you decide to use the below UseItem code, you have to include !NPC.AnyNPCs(id), as this is also the check the server does when receiving MessageID.SpawnBoss.
         // If you want more constraints for the summon item, combine them as boolean expressions:
         //    return !Main.IsItDay() && !NPC.AnyNPCs(ModContent.NPCType<MinionBossBody>()); would mean "not daytime and no MinionBossBody currently alive"
-        return !NPC.AnyNPCs(ModContent.NPCType<CentennialBreach>());
+        return !Main.IsItDay() && !NPC.AnyNPCs(ModContent.NPCType<CentennialBreach>());
         }
 
         public override bool? UseItem(Player player)

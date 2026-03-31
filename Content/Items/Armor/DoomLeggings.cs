@@ -2,6 +2,7 @@
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using TutorialMod.Content.Items.Placeable;
 
 namespace TutorialMod.Content.Items.Armor
 {
@@ -31,6 +32,7 @@ namespace TutorialMod.Content.Items.Armor
         {
             CreateRecipe()
                 .AddIngredient(ItemID.DirtBlock, 10)
+                .AddIngredient<MalvadiumBar>(10)
                 .AddTile(TileID.WorkBenches)
                 .Register();
         }

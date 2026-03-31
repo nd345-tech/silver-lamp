@@ -46,6 +46,21 @@ Items: {
 		DisplayName: Centennial Breach Summon
 		Tooltip: ""
 	}
+
+	MalvadiumBar: {
+		DisplayName: Malvadium Bar
+		Tooltip: ""
+	}
+
+	MalvadiumOre: {
+		DisplayName: Malvadium Ore
+		Tooltip: ""
+	}
+
+	TestBlock: {
+		DisplayName: Test Block
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -73,6 +88,7 @@ NPCs: {
 			LikeNPC: I like {NPCName}.
 			DislikeNPC: I dislike {NPCName}.
 			HateNPC: I hate {NPCName}.
+			LoveBiome: I love {BiomeName}.
 		}
 
 		Upgraded: Mods.TutorialMod.NPCs.Marine.Upgraded
@@ -87,3 +103,24 @@ NPCs: {
 		DisplayName: Centennial Breach
 	}
 }
+
+WorldGen: {
+	MalvadiumOrePassMessage: Malvadium Ore.
+	BlessedWithMalvadiumOreMessage: Blessed with Malvadium Ore.
+}
+
+Tiles.MalvadiumOre.MapEntry: Malvadium Ore
+
+Biomes: {
+	InProgess: {
+		DisplayName: In Progess
+		TownNPCDialogueName: the In Progess
+	}
+
+	InProgress: {
+		DisplayName: In Progress
+		TownNPCDialogueName: the In Progress
+	}
+}
+
+"Adding Extraterrestrial Stuff": Mods.TutorialMod.Adding Extraterrestrial Stuff

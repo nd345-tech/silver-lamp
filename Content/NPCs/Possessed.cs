@@ -1,9 +1,11 @@
-﻿using Terraria;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.ModLoader.Utilities;
 using TutorialMod.Content.Projectiles;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
+using TutorialMod.Content.WorldGeneration;
 
 namespace TutorialMod.Content.NPCs
 {
@@ -74,6 +76,12 @@ namespace TutorialMod.Content.NPCs
                     1f
                 );
             }
+        }
+
+        public override float SpawnChance(NPCSpawnInfo spawnInfo)
+        {
+                return SpawnCondition.OverworldNightMonster.Chance * 1.0f; // Spawn with 1/10th the chance of a regular zombie.
+            
         }
     }
 

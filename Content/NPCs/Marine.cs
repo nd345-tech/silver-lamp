@@ -23,6 +23,7 @@ using static Terraria.GameContent.Bestiary.IL_BestiaryDatabaseNPCsPopulator.Comm
 using TutorialMod.Content.Items;
 using TutorialMod.Content.Items.Ammo;
 using TutorialMod.Content.Projectiles;
+using TutorialMod.Content.WorldGeneration;
 
 namespace TutorialMod.Content.NPCs
 {
@@ -70,7 +71,7 @@ namespace TutorialMod.Content.NPCs
             NPC.Happiness
                 .SetBiomeAffection<ForestBiome>(AffectionLevel.Like) // Example Person prefers the forest.
                 .SetBiomeAffection<SnowBiome>(AffectionLevel.Dislike) // Example Person dislikes the snow.
-                                                                      //.SetBiomeAffection<ExampleSurfaceBiome>(AffectionLevel.Love) // Example Person likes the Example Surface Biome
+                .SetBiomeAffection<InProgress>(AffectionLevel.Love) // Example Person likes the Example Surface Biome
                 .SetNPCAffection(NPCID.Dryad, AffectionLevel.Love) // Loves living near the dryad.
                 .SetNPCAffection(NPCID.Guide, AffectionLevel.Like) // Likes living near the guide.
                 .SetNPCAffection(NPCID.Merchant, AffectionLevel.Dislike) // Dislikes living near the merchant.

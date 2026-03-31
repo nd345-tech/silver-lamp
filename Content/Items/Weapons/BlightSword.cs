@@ -4,6 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 //using Terraria.DataStructures;
 using Microsoft.Xna.Framework;
+using TutorialMod.Content.Items.Placeable;
 
 namespace TutorialMod.Content.Items.Weapons
 {
@@ -32,7 +33,7 @@ namespace TutorialMod.Content.Items.Weapons
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.DirtBlock, 10);
-            recipe.AddIngredient(ItemID.StoneBlock, 1);
+            recipe.AddIngredient<MalvadiumBar>(5);
             recipe.AddTile(TileID.WorkBenches);
             recipe.Register();
         }
