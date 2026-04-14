@@ -16,7 +16,7 @@ namespace TutorialMod.Content.WorldGeneration
 
         public override void SetStaticDefaults()
         {
-            InProgressPassMessage = Language.GetOrRegister(Mod.GetLocalizationKey("Adding Extraterrestrial Stuff"));
+            InProgressPassMessage = Language.GetOrRegister(Mod.GetLocalizationKey("Adding InProgress Stuff"));
         }
 
         // 4. We use the ModifyWorldGenTasks method to tell the game the order that our world generation code should run

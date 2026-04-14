@@ -61,12 +61,48 @@ Items: {
 		DisplayName: Test Block
 		Tooltip: ""
 	}
+
+	MalvadiumRevolver: {
+		DisplayName: Malvadium Revolver
+		Tooltip: ""
+	}
+
+	MalvadiumMinigun: {
+		DisplayName: Malvadium Minigun
+		Tooltip: ""
+	}
+
+	MalvadiumBow: {
+		DisplayName: Malvadium Bow
+		Tooltip: ""
+	}
+
+	MalvadiumSword: {
+		DisplayName: Malvadium Sword
+		Tooltip: ""
+	}
+
+	MalvadiumArrow: {
+		DisplayName: Malvadium Arrow
+		Tooltip: ""
+	}
+
+	MalvadiumRocket: {
+		DisplayName: Malvadium Rocket
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
 	ScorchBullet.DisplayName: Scorch Bullet
 	DemonicSphere.DisplayName: Demonic Sphere
 	DemonicSphereBoss.DisplayName: Demonic Sphere Boss
+	MalvadiumArrowHoming.DisplayName: Malvadium Arrow Homing
+	MalvadiumArrow.DisplayName: Malvadium Arrow
+	MalvadiumSwordProjectile.DisplayName: Malvadium Sword Projectile
+	MalvadiumSwordProj.DisplayName: Malvadium Sword Proj
+	MalvadiumRocket.DisplayName: Malvadium Rocket
+	MalvadiumRevolverProjectile.DisplayName: Malvadium Revolver Projectile
 }
 
 NPCs: {
@@ -124,3 +160,4 @@ Biomes: {
 }
 
 "Adding Extraterrestrial Stuff": Mods.TutorialMod.Adding Extraterrestrial Stuff
+"Adding InProgress Stuff": Mods.TutorialMod.Adding InProgress Stuff
