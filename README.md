@@ -24,3 +24,5 @@ To run this mod:
 To be able to change or modify the code of this mod you must have a text editor compatible with C#, I used Visual Studio for free.
 - Either clone this repo or click the small folder icon in the 'Workshop' section then locate the TutorialMod.csproj to start coding
 
+For help with starting out with modding, I recommend the ExampleMod provided by tModLoader.
+
