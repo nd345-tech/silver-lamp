@@ -16,6 +16,8 @@ To run this mod:
 - Drag this folder into the 'ModSources' folder
 - Now open up tModLoader
 - Click 'Workshop'
+- Click 'Develop Mods'
+- Follow the instructions to download .NET SDK if needed
 - The mod should be there, now click 'Build + Reload'
 - Now click 'Back' and go to 'Manage Mods' and enable it if it is not already
 
