@@ -91,6 +91,37 @@ Items: {
 		DisplayName: Malvadium Rocket
 		Tooltip: ""
 	}
+
+	MalvadiumTome: {
+		DisplayName: Malvadium Tome
+		Tooltip: ""
+	}
+
+	MalvadiumStaff: {
+		DisplayName: Malvadium Staff
+		Tooltip: ""
+	}
+
+	MalvadiumShield: {
+		DisplayName: Malvadium Shield
+		Tooltip: ""
+	}
+
+	MalvadiumHelm: {
+		SetBonus: Mods.TutorialMod.Items.MalvadiumHelm.SetBonus
+		DisplayName: Malvadium Helm
+		Tooltip: ""
+	}
+
+	MalvadiumBreastplate: {
+		DisplayName: Malvadium Breastplate
+		Tooltip: ""
+	}
+
+	MalvadiumLeggings: {
+		DisplayName: Malvadium Leggings
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -103,6 +134,9 @@ Projectiles: {
 	MalvadiumSwordProj.DisplayName: Malvadium Sword Proj
 	MalvadiumRocket.DisplayName: Malvadium Rocket
 	MalvadiumRevolverProjectile.DisplayName: Malvadium Revolver Projectile
+	MalvadiumBolt.DisplayName: Malvadium Bolt
+	MalvadiumBoltSplit.DisplayName: Malvadium Bolt Split
+	MalvadiumStaffBeam.DisplayName: Malvadium Staff Beam
 }
 
 NPCs: {

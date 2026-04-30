@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gRF4XLngUB8=",
+  "dgSpecHash": "nm02l93x0fU=",
   "success": true,
   "projectFilePath": "C:\\Users\\12039\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\TutorialMod\\TutorialMod.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\12039\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\12039\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\12039\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
